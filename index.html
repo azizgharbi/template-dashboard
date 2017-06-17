@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>template site</title>
+
+        <meta charset="UTF-8">
+        <meta name="description" content="hh">
+        <meta name="keywords" content="kk">
+        <meta name="author" content="jjj">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="csrf-token" content="huujj">
+
+<link rel="stylesheet" href="css/uikit.min.css" />
+<link rel="stylesheet" href="style/style.css" />
+
+
+
+    </head>
+    <body>
+        <div class="uk-offcanvas-content">
+
+   
+
+    <nav class="uk-navbar-container" uk-navbar>
+   <div class="icon-menu">
+          <a  uk-toggle="target: #offcanvas-nav-primary" uk-icon="icon: menu; ratio: 2"></a>
+   </div>
+
+    <div class="uk-navbar-right">
+
+        <ul class="uk-navbar-nav">
+            <li class="uk-active"><a href="#">Active</a></li>
+            <li>
+                <a href="#">Parent</a>
+                <div class="uk-navbar-dropdown">
+                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                        <li class="uk-active"><a href="#">Active</a></li>
+                        <li><a href="#">Item</a></li>
+                        <li><a href="#">Item</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#">Item</a></li>
+        </ul>
+
+    </div>
+
+</nav>
+
+    <div id="offcanvas-nav-primary" uk-offcanvas="overlay: true">
+        <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+
+            <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+                <li class="uk-active"><a href="#">Calendrier</a></li>
+                <li class="uk-parent">
+                    <a href="#">Rendez-vous</a>
+                    <ul class="uk-nav-sub">
+                        <li><a href="#">Ajouter un rendez-vous</a></li>
+                        <li><a href="#">Ajouter un contact</a></li>
+                    </ul>
+                </li>
+                <li class="uk-nav-header">Header</li>
+                <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: table"></span> Item</a></li>
+                <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: thumbnails"></span> Item</a></li>
+                <li class="uk-nav-divider"></li>
+                <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: trash"></span> Item</a></li>
+            </ul>
+
+        </div>
+    </div>
+
+   <div class="uk-container">
+       <div class="uk-card uk-card-default content">
+           <div class="content-section">
+           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque scelerisque mauris porta turpis semper dignissim. Praesent sit amet felis ut urna efficitur vehicula. Mauris in massa ante. Donec aliquam interdum ligula quis lacinia. Suspendisse odio enim, porta eu mi id, finibus hendrerit erat. Vivamus facilisis odio a est viverra finibus. Phasellus eget tristique est, eu dictum felis. Nunc dapibus pharetra augue, auctor mollis ex bibendum vel. Fusce quis mi sit amet nisi varius scelerisque.
+           </div>
+       </div>
+   </div>
+
+</div>
+        
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/uikit.min.js"></script>
+<script src="js/uikit-icons.min.js"></script>    
+    </body>
+</html>
